@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navigation from "./components/Navigation";
+import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: "EssAI - Your AI Essay Writing Assistant",
@@ -15,10 +16,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-sans antialiased">
-        <Navigation />
-        <div className="pt-16">
+        <Providers>
+          <Navigation />
+          <div className="pt-16">
         {children}
-        </div>
+          </div>
+        </Providers>
       </body>
     </html>
   );

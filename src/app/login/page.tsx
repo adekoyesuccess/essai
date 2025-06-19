@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { signIn } from 'next-auth/react';
 
-export default function SignUp() {
+export default function Login() {
   const router = useRouter();
   const [error, setError] = useState<string>('');
   const [loading, setLoading] = useState(false);
@@ -18,21 +18,8 @@ export default function SignUp() {
     const formData = new FormData(e.currentTarget);
     const email = formData.get('email') as string;
     const password = formData.get('password') as string;
-    const name = formData.get('name') as string;
 
     try {
-      const res = await fetch('/api/auth/register', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password, name }),
-      });
-
-      if (!res.ok) {
-        const data = await res.json();
-        throw new Error(data.error || 'Failed to register');
-      }
-
-      // Sign in the user after successful registration
       const result = await signIn('credentials', {
         email,
         password,
@@ -44,8 +31,9 @@ export default function SignUp() {
       }
 
       router.push('/dashboard');
+      router.refresh();
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Something went wrong');
+      setError(err instanceof Error ? err.message : 'Invalid credentials');
     } finally {
       setLoading(false);
     }
@@ -55,7 +43,7 @@ export default function SignUp() {
     <main className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md mx-auto">
         <h1 className="text-4xl font-bold text-center mb-8">
-          <span className="gradient-text">Create Your Account</span>
+          <span className="gradient-text">Welcome Back</span>
         </h1>
 
         <div className="glass-card p-8">
@@ -66,20 +54,6 @@ export default function SignUp() {
           )}
 
           <form onSubmit={handleSubmit} className="space-y-6">
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                Full Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="w-full px-4 py-2 rounded-lg bg-white/50 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500"
-                placeholder="John Doe"
-                required
-              />
-            </div>
-
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
                 Email Address
@@ -105,7 +79,6 @@ export default function SignUp() {
                 className="w-full px-4 py-2 rounded-lg bg-white/50 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500"
                 placeholder="••••••••"
                 required
-                minLength={8}
               />
             </div>
 
@@ -115,27 +88,18 @@ export default function SignUp() {
               className={`w-full gradient-bg text-white py-3 rounded-lg font-semibold transition-all
                 ${loading ? 'opacity-70 cursor-not-allowed' : 'hover:opacity-90'}`}
             >
-              {loading ? 'Creating Account...' : 'Create Account'}
+              {loading ? 'Signing In...' : 'Sign In'}
             </button>
           </form>
 
           <div className="mt-6 pt-6 border-t border-gray-200 text-center">
             <p className="text-sm text-gray-600">
-              Already have an account?{' '}
-              <Link href="/login" className="text-green-600 hover:text-green-700 font-semibold">
-                Log In
+              Don't have an account?{' '}
+              <Link href="/signup" className="text-green-600 hover:text-green-700 font-semibold">
+                Sign Up
               </Link>
             </p>
           </div>
-        </div>
-
-        <div className="mt-8 text-center">
-          <p className="text-sm text-gray-500">
-            Need help?{' '}
-            <a href="/contact" className="text-green-600 hover:text-green-700">
-              Contact Support
-            </a>
-          </p>
         </div>
       </div>
     </main>
