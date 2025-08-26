@@ -337,4 +337,4 @@ Please generate an essay in ${userWritingStyle} style with a target length of ${
     console.error('Essay generation error:', error);
     return NextResponse.json({ error: isDev ? String(error) : 'Failed to generate essay.' }, { status: 500 });
   }
-} 
+}
