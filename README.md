@@ -1,5 +1,5 @@
 Essai
-Essai is a modern, AI-powered essay writing and analysis platform. Designed for everyone from students to professionals it offers a beautiful, intuitive interface and a suite of smart tools to help you write, analyze, and improve your essays.
+Essai is a modern, AI powered essay writing and analysis platform. Designed for everyone from students to professionals it offers a beautiful, intuitive interface and a suite of smart tools to help you write, analyze, and improve your essays.
 
 Features
 - Essay Generator: Instantly create high quality essays with AI assistance.
@@ -69,12 +69,12 @@ Project Structure
 
 essai/
   ├── src/
-  │   ├── app/                # Next.js app directory (routes, layouts, pages)
-  │   ├── components/         # Reusable UI components
-  │   ├── lib/                # Utility libraries (Prisma, Supabase, etc.)
-  │   ├── prisma/             # Prisma schema
-  │   └── public/             # Static assets (SVGs, favicon, etc.)
-  ├── .env.example            # Environment variable template
+  │   ├── app/Next.js app directory (routes, layouts, pages)
+  │   ├── components/Reusable UI components
+  │   ├── lib/Utility libraries (Prisma, Supabase, etc.)
+  │   ├── prisma/Prisma schema
+  │   └── public/Static assets (SVGs, favicon, etc.)
+  ├── .env.example / Environment variable template
   ├── package.json
   └── README.md
 
