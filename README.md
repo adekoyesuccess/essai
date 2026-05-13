@@ -1,18 +1,14 @@
-# Essai
+Essai
+Essai is a modern, AI-powered essay writing and analysis platform. Designed for everyone from students to professionals it offers a beautiful, intuitive interface and a suite of smart tools to help you write, analyze, and improve your essays.
 
-**Essai** is a modern, AI-powered essay writing and analysis platform. Designed for everyone—from students to professionals—it offers a beautiful, intuitive interface and a suite of smart tools to help you write, analyze, and improve your essays.
-
----
-
-## ✨ Features
-
-- **Essay Generator:** Instantly create high-quality essays with AI assistance.
-- **Essay Rewriter:** Improve and rephrase your writing for clarity and impact.
-- **Paragraph Analyzer:** Get detailed feedback on paragraph relevance and coherence.
-- **Score Essay:** Submit essays for instant AI-powered scoring and feedback.
-- **Essay History:** View, manage, and clear your essay history.
-- **Writing Guide:** Access tips and best practices for effective writing.
-- **Settings Panel:**  
+Features
+- Essay Generator: Instantly create high quality essays with AI assistance.
+- Essay Rewriter: Improve and rephrase your writing for clarity and impact.
+- Paragraph Analyzer: Get detailed feedback on paragraph relevance and coherence.
+- Score Essay: Submit essays for instant AI-powered scoring and feedback.
+- Essay History: View, manage, and clear your essay history.
+- Writing Guide: Access tips and best practices for effective writing.
+- Settings Panel: 
   - Profile picture upload  
   - Writing preferences (style, type, length)  
   - Auto-save frequency  
@@ -20,70 +16,57 @@
   - Privacy & analytics controls  
   - Appearance (theme, language)  
   - User info and sign out
-- **Modern UI:**  
+- Modern UI:
   - Beautiful gradients, glassmorphism, and responsive design  
   - Smooth animations and intuitive navigation  
   - Split layouts for auth pages with feature highlights
 
----
-
-## 🚀 Getting Started
-
-### 1. **Clone the repository**
+ Getting Started
+1. Clone the repository
 ```bash
 git clone https://github.com/your-username/essai.git
 cd essai/essai
-```
 
-### 2. **Install dependencies**
+ 2. Install dependencies
 ```bash
 pnpm install
-```
 
-### 3. **Set up environment variables**
+ 3. Set up environment variables
 - Copy `.env.example` to `.env` and fill in your credentials (Supabase, NextAuth, etc.)
 
-### 4. **Set up the database**
+ 4. Set up the database
 ```bash
 pnpm prisma db push
 pnpm prisma generate
-```
 
-### 5. **Run the development server**
+ 5. Run the development server
 ```bash
 pnpm dev
 ```
 Visit [http://localhost:3000](http://localhost:3000) to use the app.
 
----
+Tech Stack
 
-## 🛠️ Tech Stack
+- Next.js 14 (App Router)
+- React 18
+- Prisma ORM (PostgreSQL/Supabase)
+- NextAuth.js (Google & Credentials)
+- Tailwind CSS (with custom gradients and glassmorphism)
+- Supabase (database & storage)
+- Lucide Icons
+- TypeScript
 
-- **Next.js 14** (App Router)
-- **React 18**
-- **Prisma ORM** (PostgreSQL/Supabase)
-- **NextAuth.js** (Google & Credentials)
-- **Tailwind CSS** (with custom gradients and glassmorphism)
-- **Supabase** (database & storage)
-- **Lucide Icons**
-- **TypeScript**
+Customization
 
----
-
-## 📝 Customization
-
-- **Settings Panel:**  
+- Settings Panel: 
   All user preferences are saved to the database and applied across the platform.
-- **Profile Picture:**  
+- Profile Picture:
   Uses a placeholder avatar service by default; can be extended to use Supabase Storage, S3, or Cloudinary.
-- **Auth Pages:**  
-  Feature-rich split layouts with gradients and feature highlights.
+- Auth Pages:
+  Feature rich split layouts with gradients and feature highlights.
 
----
+Project Structure
 
-## 📦 Project Structure
-
-```
 essai/
   ├── src/
   │   ├── app/                # Next.js app directory (routes, layouts, pages)
@@ -94,23 +77,16 @@ essai/
   ├── .env.example            # Environment variable template
   ├── package.json
   └── README.md
-```
 
----
-
-## 🧑‍💻 Contributing
+Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
----
-
-## 📄 License
+ License
 
 [MIT](LICENSE)
 
----
-
-## 🙏 Acknowledgements
+Acknowledgements
 
 - [Next.js](https://nextjs.org/)
 - [Prisma](https://prisma.io/)
@@ -119,6 +95,4 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Lucide Icons](https://lucide.dev/)
 
----
-
-**Essai** — Write smarter, analyze deeper, and grow as a writer. 
+Essai — Write smarter, analyze deeper, and grow as a writer. 
