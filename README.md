@@ -9,7 +9,6 @@ Features
 - Essay History: View, manage, and clear your essay history.
 - Writing Guide: Access tips and best practices for effective writing.
 - Settings Panel: 
-  - Profile picture upload  
   - Writing preferences (style, type, length)  
   - Auto save frequency  
   - Notifications (email, push, writing tips)  
