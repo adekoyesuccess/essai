@@ -21,6 +21,11 @@ Features
   - Smooth animations and intuitive navigation  
   - Split layouts for auth pages with feature highlights
 
+Screenshots
+
+Homepage
+![image]([![Screenshot-20260516-213916-Docs.jpg](https://i.postimg.cc/mr21M6vj/Screenshot-20260516-213916-Docs.jpg)](https://postimg.cc/v4kmwXHx))
+
 Tech Stack
 
 - Next.js 14 (App Router)
