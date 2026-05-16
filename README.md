@@ -1,4 +1,4 @@
-Essai
+íEssai
 Essai is a modern, AI powered essay writing and analysis platform. Designed for everyone from students to professionals it offers a beautiful, intuitive interface and a suite of smart tools to help you write, analyze, and improve your essays.
 
 Features
@@ -23,8 +23,7 @@ Features
 
 Screenshots
 
-landing page
-![image]([![Screenshot-20260516-213916-Docs.jpg](https://i.postimg.cc/mr21M6vj/Screenshot-20260516-213916-Docs.jpg)](https://postimg.cc/v4kmwXHx))
+landing page[https://postimg.cc/fSCx81sr]
 
 Dashboard
 ![image]([![Screenshot-20260516-214819-Docs.jpg](https://i.postimg.cc/VLfwYQn3/Screenshot-20260516-214819-Docs.jpg)](https://postimg.cc/XXzm8P28))
