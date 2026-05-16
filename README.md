@@ -24,6 +24,8 @@ Features
 Screenshots
 
 landing page[https://postimg.cc/fSCx81sr]
+Dashboard page[https://postimg.cc/y31f6mYv]
+
 
 Dashboard
 ![image]([![Screenshot-20260516-214819-Docs.jpg](https://i.postimg.cc/VLfwYQn3/Screenshot-20260516-214819-Docs.jpg)](https://postimg.cc/XXzm8P28))
