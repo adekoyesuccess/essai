@@ -5,15 +5,15 @@ Features
 - Essay Generator: Instantly create high quality essays with AI assistance.
 - Essay Rewriter: Improve and rephrase your writing for clarity and impact.
 - Paragraph Analyzer: Get detailed feedback on paragraph relevance and coherence.
-- Score Essay: Submit essays for instant AI-powered scoring and feedback.
+- Score Essay: Submit essays for instant AI powered scoring and feedback.
 - Essay History: View, manage, and clear your essay history.
 - Writing Guide: Access tips and best practices for effective writing.
 - Settings Panel: 
   - Profile picture upload  
   - Writing preferences (style, type, length)  
-  - Auto-save frequency  
+  - Auto save frequency  
   - Notifications (email, push, writing tips)  
-  - Privacy & analytics controls  
+  - Privacy and analytics controls  
   - Appearance (theme, language)  
   - User info and sign out
 - Modern UI:
@@ -25,7 +25,7 @@ Features
 https://essai-zeta-one.vercel.app/
 
 Note
-This project is hosted using free-tier backend services. Authentication features may occasionally be unavailable due to backend inactivity or database sleep mode.
+This project is hosted using free tier backend services. Authentication features may occasionally be unavailable due to backend inactivity or database sleep mode.
 
 Screenshots
 
@@ -56,9 +56,9 @@ Tech Stack
 - Next.js 14 (App Router)
 - React 18
 - Prisma ORM (PostgreSQL/Supabase)
-- NextAuth.js (Google & Credentials)
+- NextAuth.js (Google and Credentials)
 - Tailwind CSS (with custom gradients and glassmorphism)
-- Supabase (database & storage)
+- Supabase (database and storage)
 - Lucide Icons
 - TypeScript
 
