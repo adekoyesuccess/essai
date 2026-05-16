@@ -38,13 +38,13 @@ Dashboard page[https://postimg.cc/JsSMynXb]
 
 Essay scoring page[https://postimg.cc/Wh2RtZfC]
 
-Eassy Rewriter page[https://postimg.cc/DSS7ysS7]
+Essay Rewriter page[https://postimg.cc/DSS7ysS7]
 
-Eassy Generator page[https://postimg.cc/T5268W8L]
+Essay Generator page[https://postimg.cc/T5268W8L]
 
 Paragraph Analyzer page[https://postimg.cc/mP1GGsnL]
 
-Eassy history page[https://postimg.cc/c61yLYjZ]
+Essay history page[https://postimg.cc/c61yLYjZ]
 
 writing guide page[https://postimg.cc/SXbHFz8Z]
 
