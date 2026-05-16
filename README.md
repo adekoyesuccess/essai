@@ -23,9 +23,14 @@ Features
 
 Screenshots
 
-Homepage
+landing page
 ![image]([![Screenshot-20260516-213916-Docs.jpg](https://i.postimg.cc/mr21M6vj/Screenshot-20260516-213916-Docs.jpg)](https://postimg.cc/v4kmwXHx))
 
+Dashboard
+![image]([![Screenshot-20260516-214819-Docs.jpg](https://i.postimg.cc/VLfwYQn3/Screenshot-20260516-214819-Docs.jpg)](https://postimg.cc/XXzm8P28))
+
+### Essay Scoring
+![image](PASTE_THIRD_IMAGE_LINK)
 Tech Stack
 
 - Next.js 14 (App Router)
