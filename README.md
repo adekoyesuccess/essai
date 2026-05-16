@@ -24,6 +24,8 @@ Features
 Screenshots
 
 landing page[https://postimg.cc/fSCx81sr]
+Sign in page[https://postimg.cc/qhjsL94n]
+sign up page[https://postimg.cc/94cwnJx8]
 Dashboard page[https://postimg.cc/y31f6mYv]
 
 
