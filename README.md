@@ -1,4 +1,4 @@
-íEssai
+Essai
 Essai is a modern, AI powered essay writing and analysis platform. Designed for everyone from students to professionals it offers a beautiful, intuitive interface and a suite of smart tools to help you write, analyze, and improve your essays.
 
 Features
@@ -26,14 +26,15 @@ Screenshots
 landing page[https://postimg.cc/fSCx81sr]
 Sign in page[https://postimg.cc/qhjsL94n]
 sign up page[https://postimg.cc/94cwnJx8]
-Dashboard page[https://postimg.cc/y31f6mYv]
+Dashboard page[https://postimg.cc/JsSMynXb]
+Essay scoring page[https://postimg.cc/Wh2RtZfC]
+Eassy Rewriter page[https://postimg.cc/DSS7ysS7]
+Eassy Generator page[https://postimg.cc/T5268W8L]
+Paragraph Analyzer page[https://postimg.cc/mP1GGsnL]
+Eassy history page[https://postimg.cc/c61yLYjZ]
+writing guide page[https://postimg.cc/SXbHFz8Z]
+setting page[https://postimg.cc/CdrtM2kP]
 
-
-Dashboard
-![image]([![Screenshot-20260516-214819-Docs.jpg](https://i.postimg.cc/VLfwYQn3/Screenshot-20260516-214819-Docs.jpg)](https://postimg.cc/XXzm8P28))
-
-### Essay Scoring
-![image](PASTE_THIRD_IMAGE_LINK)
 Tech Stack
 
 - Next.js 14 (App Router)
