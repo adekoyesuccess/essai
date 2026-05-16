@@ -21,18 +21,34 @@ Features
   - Smooth animations and intuitive navigation  
   - Split layouts for auth pages with feature highlights
 
+
+https://essai-zeta-one.vercel.app/
+
+Note
+This project is hosted using free-tier backend services. Authentication features may occasionally be unavailable due to backend inactivity or database sleep mode.
+
 Screenshots
 
 landing page[https://postimg.cc/fSCx81sr]
+
 Sign in page[https://postimg.cc/qhjsL94n]
+
 sign up page[https://postimg.cc/94cwnJx8]
+
 Dashboard page[https://postimg.cc/JsSMynXb]
+
 Essay scoring page[https://postimg.cc/Wh2RtZfC]
+
 Eassy Rewriter page[https://postimg.cc/DSS7ysS7]
+
 Eassy Generator page[https://postimg.cc/T5268W8L]
+
 Paragraph Analyzer page[https://postimg.cc/mP1GGsnL]
+
 Eassy history page[https://postimg.cc/c61yLYjZ]
+
 writing guide page[https://postimg.cc/SXbHFz8Z]
+
 setting page[https://postimg.cc/CdrtM2kP]
 
 Tech Stack
