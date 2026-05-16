@@ -78,21 +78,5 @@ essai/
   ├── package.json
   └── README.md
 
-Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
-
- License
-
-[MIT](LICENSE)
-
-Acknowledgements
-
-- [Next.js](https://nextjs.org/)
-- [Prisma](https://prisma.io/)
-- [Supabase](https://supabase.com/)
-- [NextAuth.js](https://next-auth.js.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Lucide Icons](https://lucide.dev/)
 
 Essai — Write smarter, analyze deeper, and grow as a writer. 
