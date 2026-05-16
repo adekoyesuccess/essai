@@ -21,30 +21,6 @@ Features
   - Smooth animations and intuitive navigation  
   - Split layouts for auth pages with feature highlights
 
- Getting Started
-1. Clone the repository
-```bash
-git clone https://github.com/your-username/essai.git
-cd essai/essai
-
- 2. Install dependencies
-```bash
-pnpm install
-
- 3. Set up environment variables
-- Copy `.env.example` to `.env` and fill in your credentials (Supabase, NextAuth, etc.)
-
- 4. Set up the database
-```bash
-pnpm prisma db push
-pnpm prisma generate
-
- 5. Run the development server
-```bash
-pnpm dev
-```
-Visit [http://localhost:3000](http://localhost:3000) to use the app.
-
 Tech Stack
 
 - Next.js 14 (App Router)
@@ -55,15 +31,6 @@ Tech Stack
 - Supabase (database & storage)
 - Lucide Icons
 - TypeScript
-
-Customization
-
-- Settings Panel: 
-  All user preferences are saved to the database and applied across the platform.
-- Profile Picture:
-  Uses a placeholder avatar service by default; can be extended to use Supabase Storage, S3, or Cloudinary.
-- Auth Pages:
-  Feature rich split layouts with gradients and feature highlights.
 
 Project Structure
 
@@ -78,5 +45,4 @@ essai/
   ├── package.json
   └── README.md
 
-
-Essai — Write smarter, analyze deeper, and grow as a writer. 
+ 
